@@ -5,7 +5,7 @@ class Timer extends React.PureComponent {
     constructor(props) {
         super(props);
         this.state = {
-            time: 10,
+            time: 15,
         };
     }
 
@@ -31,7 +31,7 @@ class Timer extends React.PureComponent {
     };
 
     resetTimer = () => {
-        this.setState({time: 10});
+        this.setState({time: 15});
     };
 
     componentDidMount() {
