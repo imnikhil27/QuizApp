@@ -1,0 +1,125 @@
+
+html, body, #root, .wrapper {
+    font-family: 'Waiting for the Sunrise', cursive;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 10px;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    text-align: center;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+    text-align: center;
+}
+
+:-ms-input-placeholder {
+    text-align: center;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+ol, ul {
+    padding-left: 30px;
+}
+
+.fa {
+    color: #e90606;
+}
+
+.header {
+    height: 10%;
+    padding-top: 1%;
+}
+
+.typewrite {
+    margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    #opening-line {
+        margin: 10px;
+        font-size: 1.5rem;
+    }
+}
+
+
+.wrap {
+    color: darkblue;
+}
+
+.content {
+    display: flex;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin : 0;
+}
+
+
+.scoreboard, .timer {
+    display: flex;
+    justify-content: center;
+}
+
+.start-button {
+    margin: 0.5rem;
+    background-color: white;
+    border-color: black;
+    border-width: 1.5px;
+    font-family: 'Waiting for the Sunrise', cursive;
+}
+
+.submit-button {
+    margin: 0.5rem;
+    background-color: white;
+    border-color: black;
+    border-width: 1.5px;
+    font-family: 'Waiting for the Sunrise', cursive;
+}
+
+#answer {
+    width: 300px;
+    background-color: white;
+    border-color: darkblue;
+}
+
+#answer-status {
+    margin-bottom: 10%;
+}
+
+#timer-score {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.question {
+    margin: 10px;
+}
+
+button:hover {
+    border-color: darkblue;
+    color: darkblue;
+}
+
